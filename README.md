@@ -20,4 +20,14 @@
 	* Html文件类型的声明，让浏览器统一使用标准模式进行解析。
 	* 指定了语言和网页字符编码
 	* css文件和Javascript文件的引入位置
+　　
+	2. DOM属性顺序
+	HTML 属性应当按照以下给出的顺序依次排列，确保代码的易读性。
+	* class
+	* id, name
+	* data-*
+	*　src, for, type, href
+	×　title, alt
+	×　aria-*, role
+
 	
